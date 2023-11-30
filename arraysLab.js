@@ -130,6 +130,14 @@ let m = 0
 // using a for loop. Log the result.
 
 let countdown = [];
+let k = 10
+
+for (k = 10; k > 0; k -= 1) [
+    countdown.push(k)
+]
+
+console.log(countdown)
+
 
 
 //////////////////PROBLEM 12////////////////////
@@ -140,6 +148,24 @@ let countdown = [];
 
 const originalArray = [1, 2, 3, 4];
 const reversedArray = [];
+let h = 4
+
+for (h = 4; h > 0; h -= 1){    
+    reversedArray.push(h)
+}
+
+console.log(reversedArray)
+
+// const originalArray = [1, 2, 3, 4];
+// const reversedArray = [];
+// let h = originalArray[3]
+
+// for (h = originalArray[3]; h > originalArray.length; h -= 1){    
+//     reversedArray.push(originalArray)
+
+// }
+
+// console.log(originalArray)
 
 
 
